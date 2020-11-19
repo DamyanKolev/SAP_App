@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="181.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HelpViewController">
+   <children>
+      <Button fx:id="close" layoutX="266.0" layoutY="145.0" mnemonicParsing="false" onAction="#close" text="Close" />
+      <TextField editable="false" layoutX="111.0" layoutY="37.0" text="Damyan Kolev" />
+      <TextField editable="false" layoutX="111.0" layoutY="78.0" text="0.5.3" />
+      <TextField editable="false" layoutX="111.0" layoutY="119.0" text="FileProcess" />
+      <Label layoutX="17.0" layoutY="40.0" prefHeight="18.0" text="Developer" />
+      <Label layoutX="17.0" layoutY="81.0" prefHeight="18.0" text="Version" />
+      <Label layoutX="17.0" layoutY="122.0" prefHeight="18.0" text="Name" />
+   </children>
+</AnchorPane>

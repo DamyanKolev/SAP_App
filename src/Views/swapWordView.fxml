@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="249.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SwapWordViewController">
+   <children>
+      <TextField fx:id="first_line_index" layoutX="140.0" layoutY="127.0" prefHeight="26.0" prefWidth="64.0" />
+      <TextField fx:id="first_line_word_index" layoutX="140.0" layoutY="158.0" prefHeight="26.0" prefWidth="64.0" />
+      <Label layoutX="16.0" layoutY="132.0" text="First Line Index" />
+      <Label layoutX="16.0" layoutY="163.0" text="First Line Word Index" />
+      <Button fx:id="close" layoutX="402.0" layoutY="209.0" mnemonicParsing="false" onAction="#close" text="Close" />
+      <Button fx:id="swap" layoutX="322.0" layoutY="209.0" mnemonicParsing="false" onAction="#swap" text="Swap" />
+      <Label layoutX="25.0" layoutY="14.0" text="Please insert the indexes of the words which are will be swapped">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="50.0" layoutY="45.0" mnemonicParsing="false" onAction="#openFile" text="OpenFIle" />
+      <TextField fx:id="fileView" editable="false" layoutX="71.0" layoutY="83.0" prefHeight="26.0" prefWidth="370.0" />
+      <Label layoutX="16.0" layoutY="87.0" text="Your file" />
+      <Label layoutX="219.0" layoutY="132.0" text="Second Line Index" />
+      <Label layoutX="219.0" layoutY="163.0" text="Second Line Word Index" />
+      <TextField fx:id="second_line_word_index" layoutX="362.0" layoutY="158.0" prefHeight="26.0" prefWidth="64.0" />
+      <TextField fx:id="second_line_index" layoutX="362.0" layoutY="127.0" prefHeight="26.0" prefWidth="64.0" />
+   </children>
+</AnchorPane>
